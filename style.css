@@ -1,0 +1,33 @@
+.body{
+    font-family: 'Ubuntu', sans-serif;
+    color: #06062e;
+    font-size: 18px;
+
+}
+.titulo{
+    font-size: 35px;
+    color: red;
+    font-style:italic;
+}
+
+.parrafo{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.portada{
+    width: 100%;
+    height: 500px;
+    position:static;
+    background-image: url("images/avion.jpg");
+    background-size: 100%;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+}
+
+.card-section{
+    width: 20% ;
+}
+
+
+
