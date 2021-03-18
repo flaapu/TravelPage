@@ -1,8 +1,6 @@
 .body{
     font-family: 'Overpass', sans-serif;
-    color: #06062e;
     font-size: 18px;
-
 }
 
 h1, h2, h3{
@@ -123,6 +121,46 @@ h1, h2, h3{
 
 .footer p {
   color: white;
+}
+.columnas{
+  margin: auto;
+  width: 500px;
+  column-count: 2;
+  column-gap: 100px;
+  column-rule: 4px dotted gray;
+  text-align: left;
+  color: floralwhite;
+  padding: 10px 0 10px 0;
+  font-size: 15px;
+}
+
+.columnas img{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  
+}
+.columnas a{
+  color: rgb(231, 199, 140);
+}
+
+.columnas a:hover{
+  color:rgb(248, 201, 73);
+  transition: 0.5;
+}
+
+.columnas p{
+  font-size: 20px;
+  color:rgb(255, 255, 255);
+  text-decoration: underline;
+
+}
+
+.copyright{
+  color: black;
+  font-size: 10px;
+  font-family:monospace;
+  text-align: center;
 }
 
 
